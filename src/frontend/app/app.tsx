@@ -11,7 +11,7 @@ import { Switch } from "react-router";
 
 const App = () => (
   <Router>
-    <div>
+    <div style={{display: 'flex'}}>
       <Switch>
         <Route exact path="/" component={AnimationPage} />
         <Route path="/main" component={RecipePage} />
